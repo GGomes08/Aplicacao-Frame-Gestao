@@ -1,0 +1,203 @@
+@font-face{
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    }
+
+header{
+        background-color: #00aeef;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        font-family: 'Raleway';
+        font-weight: normal;
+    }
+
+body{
+        margin: 0px;
+        padding: 0px;
+        background-attachment: fixed;
+        background-color: white;
+        background-size: 100%;
+        font-family: 'Raleway';
+        font-size: 16pt;
+        font-weight: normal;
+
+    }
+
+footer{
+        float: inline-end;
+        background-color: #00aeef;
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+        font-family: 'Raleway';
+        font-weight: normal;
+}
+
+p{
+        color: #666666 ;
+        text-align: justify;
+        font-family: 'Raleway';
+        font-size: 16pt;
+        font-weight: normal;
+        margin-left: 100px;
+    }
+
+h1{
+        border: none;
+        color: #00aeef;
+        color: white;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+
+h3{     
+        color: #00aeef;
+        font-family: 'Raleway';
+        font-weight: 700;
+        margin-left: 24px;
+        margin-left: 100px;
+    }
+
+hr{
+        background-color: white;
+        border: 0px;
+        color: #00aeef;
+        color: white;
+        margin-left: 100px;
+        height: 2px;
+}
+
+b{
+        color: #666666;
+        font-family: 'Raleway';
+        font-size: 16pt;
+        font-weight: 600;
+    }
+
+.btnver{
+        /*Botão*/
+        background-color:white;
+        border-radius:50px;
+        border:none;
+        margin-left: 100px;
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+        transition: 400ms;
+        /*Texto*/
+        font-family: 'Raleway';
+        font-size: 16pt;
+        font-weight: normal;
+        text-align:center;
+        color: #00aeef;
+    }
+
+.wbtnverefeito:hover{
+        background-color:#142b77;
+        color: white;
+} 
+#imghead{
+        margin-top: -200px;
+        margin-left: 600px;
+}
+
+.textevento{
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 30px;
+        margin-left: 100px;
+        transition: 400ms;
+}
+
+.mudacor:hover{
+        background-color: rgba(0, 0, 0, 0);
+        color: #142b77;
+}
+
+.textevento2{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 100px;
+    transition: 400ms;
+}
+
+
+#containerA{
+        width: 600px;
+        height: 1400px;
+        display: inline-block;
+
+}
+
+#containerB{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 50px;
+        width: 600px;
+        height: 1400px;
+        display: inline-block;
+
+}
+
+#containerC{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 700px;
+    margin-right: 150px;
+    width: 600px;
+    height: 1400px;
+    display: inline-block;
+
+}
+
+li{
+    color: #666666 ;
+        text-align: justify;
+        font-family: 'Raleway';
+        font-size: 16pt;
+        font-weight: normal;
+        margin-left: 100px;
+}
+
+
+table{
+    margin-top: 50px;
+    margin-left: 100px;   
+}
+
+th{    
+        
+        width: 250px;
+        height: 50px;
+        text-align: left;
+        color: #666666;
+        font-family: 'Raleway';
+        font-weight: normal;
+        margin-left: 20px;
+        margin-left: 100px;
+
+}
+
+#linha1table{
+    background-color: white;    
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    color: #00aeef;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-left: 20px;
+    margin-left: 100px;
+}
+
+tr{
+    background-color: white;
+}
